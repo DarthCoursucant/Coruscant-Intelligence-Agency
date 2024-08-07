@@ -10,6 +10,7 @@ html, body {
     font-size: 2rem;
     display: flex;
     flex-direction: column;
+    background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   }
   
   header.page-header, footer.page-footer {
@@ -34,9 +35,14 @@ html, body {
   }
 
   #logo-header img {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     border-radius: 20px;
+  }
+
+  #logo-header {
+    margin-top: 20px;
+    margin-left: 20px;
   }
 
    /*Menu Code */
@@ -86,4 +92,9 @@ html, body {
 
   .flex-menu {
     display: flex;
+  }
+
+  .location-header {
+    margin-left: 95%;
+    margin-top: -150px;
   }
